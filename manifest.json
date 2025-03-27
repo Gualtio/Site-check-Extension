@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Site check helper",
+  "version": "1.0",
+  "description": "Aiuta nel controllo di link e H1",
+  "permissions": ["activeTab"],
+  "action": {},
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }
+  ]
+} 
