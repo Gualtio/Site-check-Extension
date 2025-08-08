@@ -1,20 +1,22 @@
 .check-highlight-active a{
-    background-color: red !important;
-    padding: 2px 5px;
-    border-radius: 3px;
-} 
-
-.check-highlight-active h1{
-  background-color: yellowgreen !important;
+  background-color: red !important;
   padding: 2px 5px;
   border-radius: 3px;
 } 
 
+.check-highlight-active h1{
+background-color: yellowgreen !important;
+padding: 2px 5px;
+border-radius: 3px;
+} 
+
 .check-highlight-active a[target="_blank"]{
-  border: 2px solid blue !important;
+/* border: 2px solid blue !important; */
+background-color: rgb(255, 40, 255) !important;
 }
 
 
 .check-highlight-active a:not([href]) {
-  border: 2px dotted yellow !important;
+/* border: 2px dotted yellow !important; */
+background-color: rgb(40, 255, 219) !important;
 }
